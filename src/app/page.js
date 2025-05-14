@@ -81,7 +81,12 @@ const YesNoComponent = () => {
         <Confetti width={window.innerWidth} height={window.innerHeight} />
       )}
 
-      <div className="flex flex-col items-center justify-center h-screen bg-rose-200 gap-5">
+      <div className="flex flex-col items-center justify-center h-screen  gap-5" 
+      style={{
+        backgroundImage: 'url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
         <div className="flex flex-col gap-2 justify-center items-center">
           {image.endsWith(".mp4") ? (
           <video
