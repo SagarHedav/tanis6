@@ -61,12 +61,10 @@ const YesNoComponent = () => {
   };
 
   const handleYesClick = () => {
-    setImage(
-      "https://media1.tenor.com/m/Ln8IqVQSpZMAAAAC/lele-iyi.gif"
-    );
-    setPhrase("Yayyyy");
-    setConfettiActive(true);
-  };
+  setImage("/vid5.mp4"); // Set the video path from the public folder
+  setPhrase("Yayyyy");
+  setConfettiActive(true);
+};
 
   const getNoButtonText = () => {
     if (phrases.length - 1 === noCount) {
@@ -85,6 +83,17 @@ const YesNoComponent = () => {
 
       <div className="flex flex-col items-center justify-center h-screen bg-rose-200 gap-5">
         <div className="flex flex-col gap-2 justify-center items-center">
+          {image.endsWith(".mp4") ? (
+          <video
+            width={250}
+            height={250}
+            className=""
+            src={image}
+            autoPlay
+            loop
+            controls
+          />
+        ) : (
           <Image
             width={250}
             height={250}
@@ -92,7 +101,8 @@ const YesNoComponent = () => {
             src={image}
             alt=""
           />
-          <h1 className="text-2xl">Will you be my Valentine? </h1>
+        )}
+          <h1 className="text-2xl">Will you be my Baby Girl😘? </h1>
         </div>
         <div>
           <button
