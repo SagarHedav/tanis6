@@ -6,16 +6,16 @@ import Image from "next/image";
 
 const YesNoComponent = () => {
   const images = [
-    "https://media1.tenor.com/m/_fDDoYmlNC4AAAAC/tkthao219-bubududu.gif",
-    "https://media.tenor.com/vHrITzhzd0YAAAAi/bear-panda.gif",
-    "https://media.tenor.com/TIu1S3U4oWEAAAAi/no.gif",
-    "https://media.tenor.com/RJgIui1E_2QAAAAi/teddy-bear.gif",
-    "https://media1.tenor.com/m/JSkGo2B3op8AAAAC/dirt-alone.gif",
-    "https://media1.tenor.com/m/8RftKRe9hOEAAAAC/milk-mocha.gif",
-    "https://media1.tenor.com/m/ugRcShtbtOgAAAAC/nopparat.gif",
-    "https://media1.tenor.com/m/alttCLlThHAAAAAC/sad-bunny.gif",
-    "https://media1.tenor.com/m/vAHlOsfhWEcAAAAd/grizzly-we-bare-bears.gif",
-    "https://media1.tenor.com/m/22hwAGkxTDEAAAAC/we-bare-bears-sad.gif",
+    "/1.jpeg",
+    "/2.jpeg",
+    "/3.jpeg",
+    "/4.jpeg",
+    "/5.jpeg",
+    "/6.jpeg",
+    "/7.jpeg",
+    "/8.jpeg",
+    "/9.jpeg",
+    "/10.jpeg",
   ];
 
   const phrases = [
